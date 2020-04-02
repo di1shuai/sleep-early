@@ -23,7 +23,7 @@ module.exports = {
       builderOptions: {
         // options placed here will be merged with default configuration and passed to electron-builder
         "appId": "com.di1shuai.sleep",
-        "productName":"早点睡",//项目名，也是生成的安装文件名，即aDemo.exe
+        "productName":"SleepEarly",//项目名，也是生成的安装文件名，即aDemo.exe
         "copyright":"Copyright © 2020 di1shuai",//版权信息
         "directories":{
             "output":"./dist_electron"//输出文件路径
@@ -52,27 +52,6 @@ module.exports = {
             "category": "public.app-category.lifestyle",
             "target": "dmg"
         }
-        // ,
-        // 'dmg': {
-        //   'title': '早点睡',
-        //   'icon': 'public/LOGO_256.icns',
-        //   'contents': [
-        //     {
-        //       'x': 110,
-        //       'y': 150
-        //     },
-        //     {
-        //       'x': 240,
-        //       'y': 150,
-        //       'type': 'link',
-        //       'path': '/Applications'
-        //     }
-        //   ],
-        //   'window': {
-        //     'x': 400,
-        //     'y': 400
-        //   }
-        // }
       }
     }
   }
